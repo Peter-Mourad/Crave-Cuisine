@@ -1,0 +1,47 @@
+.navbar {
+  padding: 10px 20px;
+  border: 10px;
+}
+
+.navbar-container{
+    display: flex;            /* Enable Flexbox */
+    justify-content: space-between; /* Creates equal space between elements */
+    align-items: center;      /* Vertically center the elements */
+    width: 100%;              /* Ensure div fills the container width */
+    gap: 20px; 
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  align-content: center;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links {
+  color:black;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 30px;
+  padding: 15px;  
+}
+
+.nav-links:hover{
+  background-color: lightgreen;
+}
+
+button {
+  background-color: #ff6347;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 30px;
+}

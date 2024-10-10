@@ -1,0 +1,32 @@
+.menu-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.menu-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.menu-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.menu-categories {
+  margin-bottom: 30px;
+}
+
+.category-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: darkcyan;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
